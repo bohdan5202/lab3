@@ -58,18 +58,20 @@
             // lb_1
             // 
             this.lb_1.AutoSize = true;
+            this.lb_1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.lb_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lb_1.Location = new System.Drawing.Point(37, 91);
+            this.lb_1.Font = new System.Drawing.Font("Sylfaen", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lb_1.Location = new System.Drawing.Point(37, 55);
             this.lb_1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lb_1.Name = "lb_1";
-            this.lb_1.Size = new System.Drawing.Size(120, 27);
+            this.lb_1.Size = new System.Drawing.Size(124, 64);
             this.lb_1.TabIndex = 1;
-            this.lb_1.Text = "Pojemnosć";
+            this.lb_1.Text = "Pojemnosć\r\n   Naczyń";
             // 
             // TxtCapasity
             // 
             this.TxtCapasity.BackColor = System.Drawing.SystemColors.Window;
-            this.TxtCapasity.Location = new System.Drawing.Point(179, 88);
+            this.TxtCapasity.Location = new System.Drawing.Point(179, 70);
             this.TxtCapasity.Margin = new System.Windows.Forms.Padding(6);
             this.TxtCapasity.Name = "TxtCapasity";
             this.TxtCapasity.Size = new System.Drawing.Size(314, 31);
@@ -77,7 +79,7 @@
             // 
             // Txt_pr
             // 
-            this.Txt_pr.Location = new System.Drawing.Point(179, 204);
+            this.Txt_pr.Location = new System.Drawing.Point(179, 183);
             this.Txt_pr.Margin = new System.Windows.Forms.Padding(6);
             this.Txt_pr.Name = "Txt_pr";
             this.Txt_pr.Size = new System.Drawing.Size(314, 31);
@@ -86,29 +88,33 @@
             // lb_pr
             // 
             this.lb_pr.AutoSize = true;
+            this.lb_pr.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.lb_pr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lb_pr.Location = new System.Drawing.Point(37, 191);
+            this.lb_pr.Font = new System.Drawing.Font("Sylfaen", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lb_pr.Location = new System.Drawing.Point(43, 169);
             this.lb_pr.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lb_pr.Name = "lb_pr";
-            this.lb_pr.Size = new System.Drawing.Size(114, 52);
+            this.lb_pr.Size = new System.Drawing.Size(118, 64);
             this.lb_pr.TabIndex = 4;
             this.lb_pr.Text = "  Procent \r\nSubstancji";
             // 
             // lb_number
             // 
             this.lb_number.AutoSize = true;
+            this.lb_number.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.lb_number.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lb_number.Location = new System.Drawing.Point(50, 301);
+            this.lb_number.Font = new System.Drawing.Font("Sylfaen", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lb_number.Location = new System.Drawing.Point(52, 281);
             this.lb_number.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lb_number.Name = "lb_number";
-            this.lb_number.Size = new System.Drawing.Size(86, 52);
+            this.lb_number.Size = new System.Drawing.Size(91, 64);
             this.lb_number.TabIndex = 5;
             this.lb_number.Text = "  Ilość \r\nNaczyń";
             // 
             // Count
             // 
             this.Count.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.Count.Location = new System.Drawing.Point(175, 311);
+            this.Count.Location = new System.Drawing.Point(175, 299);
             this.Count.Margin = new System.Windows.Forms.Padding(6);
             this.Count.Name = "Count";
             this.Count.Size = new System.Drawing.Size(318, 31);
@@ -146,11 +152,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(603, 153);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 39);
+            this.label1.Size = new System.Drawing.Size(131, 37);
             this.label1.TabIndex = 9;
             this.label1.Text = "Results:";
             // 
