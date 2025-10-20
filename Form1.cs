@@ -17,6 +17,6 @@ namespace lab3
             InitializeComponent();
         }
 
-       
+        
     }
 }
