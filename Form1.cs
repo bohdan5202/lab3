@@ -37,6 +37,10 @@ namespace lab3
 
                 double totalVolume = capacity * itemCount;
                 double substanseVolume = totalVolume * (persentage / 100);
+
+                lb_volume.Text = "Total Volume: " + totalVolume.ToString("F2");
+                lb_clearproduct.Text = "Substance Volume: " + substanseVolume.ToString("F2");
+
             }
             catch (Exception ex)
             {
