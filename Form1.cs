@@ -35,10 +35,8 @@ namespace lab3
                 }
                 int itemCount = (int)Count.Value;
 
-
-
-
-
+                double totalVolume = capacity * itemCount;
+                double substanseVolume = totalVolume * (persentage / 100);
             }
             catch (Exception ex)
             {
