@@ -17,6 +17,33 @@ namespace lab3
             InitializeComponent();
         }
 
-       
+        private void Calculate_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double capacity;
+                double persentage;
+
+                if (!double.TryParse(TxtCapasity.Text, out capacity) || capacity <= 0)
+                {
+                    throw new FormatException("Please enter a valid positive number for capacity.");
+                }
+
+                if (!double.TryParse(Txt_pr.Text, out persentage) || persentage < 0 || persentage > 100)
+                {
+                    throw new FormatException("Please enter a valid percentage between 0 and 100.");
+                }
+                int itemCount = (int)Count.Value;
+
+
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred: " + ex.Message);
+            }
+        }
     }
 }
