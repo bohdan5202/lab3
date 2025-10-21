@@ -42,9 +42,17 @@ namespace lab3
                 lb_clearproduct.Text = "Substance Volume: " + substanseVolume.ToString("F2");
 
             }
+            catch (FormatException ex)
+            {
+                MessageBox.Show(ex.Message, "Data Format Error");
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                MessageBox.Show(ex.Message, "Value Range Error");
+            }
             catch (Exception ex)
             {
-                MessageBox.Show("An error occurred: " + ex.Message);
+                MessageBox.Show($"An unexpected error occurred: {ex.Message}", "Error Application");
             }
         }
     }
