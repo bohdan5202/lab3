@@ -43,12 +43,13 @@
             // Calculate
             // 
             this.Calculate.Location = new System.Drawing.Point(247, 125);
-            this.Calculate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Calculate.Margin = new System.Windows.Forms.Padding(2);
             this.Calculate.Name = "Calculate";
             this.Calculate.Size = new System.Drawing.Size(116, 35);
             this.Calculate.TabIndex = 0;
             this.Calculate.Text = "Calculate";
             this.Calculate.UseVisualStyleBackColor = true;
+            this.Calculate.Click += new System.EventHandler(this.Calculate_Click);
             // 
             // lb_1
             // 
@@ -130,7 +131,7 @@
             this.Controls.Add(this.TxtCapasity);
             this.Controls.Add(this.lb_1);
             this.Controls.Add(this.Calculate);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.Count)).EndInit();
