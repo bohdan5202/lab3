@@ -37,7 +37,7 @@
             this.lb_clearproduct = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.cBox_capacity = new System.Windows.Forms.ComboBox();
+            this.cBox_capasity = new System.Windows.Forms.ComboBox();
             this.cBox_pr = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.Count)).BeginInit();
             this.SuspendLayout();
@@ -46,12 +46,12 @@
             // 
             this.Calculate.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Calculate.Font = new System.Drawing.Font("Sylfaen", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Calculate.Location = new System.Drawing.Point(556, 38);
-            this.Calculate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Calculate.Location = new System.Drawing.Point(556, 44);
+            this.Calculate.Margin = new System.Windows.Forms.Padding(4);
             this.Calculate.Name = "Calculate";
-            this.Calculate.Size = new System.Drawing.Size(232, 81);
+            this.Calculate.Size = new System.Drawing.Size(217, 75);
             this.Calculate.TabIndex = 0;
-            this.Calculate.Text = "Policzyć";
+            this.Calculate.Text = "Calculate";
             this.Calculate.UseVisualStyleBackColor = false;
             this.Calculate.Click += new System.EventHandler(this.Calculate_Click);
             // 
@@ -61,12 +61,12 @@
             this.lb_1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.lb_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lb_1.Font = new System.Drawing.Font("Sylfaen", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lb_1.Location = new System.Drawing.Point(36, 56);
+            this.lb_1.Location = new System.Drawing.Point(51, 44);
             this.lb_1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lb_1.Name = "lb_1";
-            this.lb_1.Size = new System.Drawing.Size(124, 64);
+            this.lb_1.Size = new System.Drawing.Size(104, 64);
             this.lb_1.TabIndex = 1;
-            this.lb_1.Text = "Pojemnosć\r\n   Naczyń";
+            this.lb_1.Text = "Vessel(s)\r\nCapasity";
             // 
             // lb_pr
             // 
@@ -74,12 +74,12 @@
             this.lb_pr.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.lb_pr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lb_pr.Font = new System.Drawing.Font("Sylfaen", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lb_pr.Location = new System.Drawing.Point(44, 169);
+            this.lb_pr.Location = new System.Drawing.Point(15, 154);
             this.lb_pr.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lb_pr.Name = "lb_pr";
-            this.lb_pr.Size = new System.Drawing.Size(118, 64);
+            this.lb_pr.Size = new System.Drawing.Size(140, 64);
             this.lb_pr.TabIndex = 4;
-            this.lb_pr.Text = "  Procent \r\nSubstancji";
+            this.lb_pr.Text = " Percentage \r\nof substance";
             // 
             // lb_number
             // 
@@ -87,18 +87,18 @@
             this.lb_number.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.lb_number.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lb_number.Font = new System.Drawing.Font("Sylfaen", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lb_number.Location = new System.Drawing.Point(52, 281);
+            this.lb_number.Location = new System.Drawing.Point(30, 265);
             this.lb_number.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lb_number.Name = "lb_number";
-            this.lb_number.Size = new System.Drawing.Size(91, 64);
+            this.lb_number.Size = new System.Drawing.Size(125, 64);
             this.lb_number.TabIndex = 5;
-            this.lb_number.Text = "  Ilość \r\nNaczyń";
+            this.lb_number.Text = "Number of\r\n  Vessels";
             // 
             // Count
             // 
             this.Count.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.Count.Location = new System.Drawing.Point(193, 298);
-            this.Count.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Count.Location = new System.Drawing.Point(193, 283);
+            this.Count.Margin = new System.Windows.Forms.Padding(6);
             this.Count.Name = "Count";
             this.Count.Size = new System.Drawing.Size(318, 31);
             this.Count.TabIndex = 6;
@@ -108,7 +108,7 @@
             this.lb_volume.AutoSize = true;
             this.lb_volume.BackColor = System.Drawing.SystemColors.Info;
             this.lb_volume.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lb_volume.Location = new System.Drawing.Point(657, 206);
+            this.lb_volume.Location = new System.Drawing.Point(644, 206);
             this.lb_volume.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lb_volume.Name = "lb_volume";
             this.lb_volume.Size = new System.Drawing.Size(26, 27);
@@ -123,7 +123,7 @@
             this.lb_clearproduct.BackColor = System.Drawing.SystemColors.Info;
             this.lb_clearproduct.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lb_clearproduct.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.lb_clearproduct.Location = new System.Drawing.Point(657, 354);
+            this.lb_clearproduct.Location = new System.Drawing.Point(644, 359);
             this.lb_clearproduct.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lb_clearproduct.Name = "lb_clearproduct";
             this.lb_clearproduct.Size = new System.Drawing.Size(26, 27);
@@ -138,12 +138,12 @@
             this.label2.BackColor = System.Drawing.SystemColors.Info;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label2.Font = new System.Drawing.Font("Sylfaen", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(572, 146);
+            this.label2.Location = new System.Drawing.Point(583, 150);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(180, 33);
+            this.label2.Size = new System.Drawing.Size(153, 33);
             this.label2.TabIndex = 10;
-            this.label2.Text = "Łączna objętość:";
+            this.label2.Text = "Total volume:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
@@ -157,24 +157,24 @@
             this.label3.Location = new System.Drawing.Point(572, 265);
             this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(195, 64);
+            this.label3.Size = new System.Drawing.Size(174, 64);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Objętość \r\nczystej substancji:";
+            this.label3.Text = " Percentage of\r\nclear substance:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label3.UseWaitCursor = true;
             // 
-            // cBox_capacity
+            // cBox_capasity
             // 
-            this.cBox_capacity.FormattingEnabled = true;
-            this.cBox_capacity.Location = new System.Drawing.Point(193, 68);
-            this.cBox_capacity.Name = "cBox_capacity";
-            this.cBox_capacity.Size = new System.Drawing.Size(318, 33);
-            this.cBox_capacity.TabIndex = 12;
+            this.cBox_capasity.FormattingEnabled = true;
+            this.cBox_capasity.Location = new System.Drawing.Point(193, 68);
+            this.cBox_capasity.Name = "cBox_capasity";
+            this.cBox_capasity.Size = new System.Drawing.Size(318, 33);
+            this.cBox_capasity.TabIndex = 12;
             // 
             // cBox_pr
             // 
             this.cBox_pr.FormattingEnabled = true;
-            this.cBox_pr.Location = new System.Drawing.Point(193, 185);
+            this.cBox_pr.Location = new System.Drawing.Point(193, 174);
             this.cBox_pr.Name = "cBox_pr";
             this.cBox_pr.Size = new System.Drawing.Size(318, 33);
             this.cBox_pr.TabIndex = 13;
@@ -186,7 +186,7 @@
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.cBox_pr);
-            this.Controls.Add(this.cBox_capacity);
+            this.Controls.Add(this.cBox_capasity);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lb_clearproduct);
@@ -196,7 +196,7 @@
             this.Controls.Add(this.lb_pr);
             this.Controls.Add(this.lb_1);
             this.Controls.Add(this.Calculate);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.Count)).EndInit();
@@ -216,7 +216,7 @@
         private System.Windows.Forms.Label lb_clearproduct;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cBox_capacity;
+        private System.Windows.Forms.ComboBox cBox_capasity;
         private System.Windows.Forms.ComboBox cBox_pr;
     }
 }
