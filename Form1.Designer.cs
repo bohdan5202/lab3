@@ -108,7 +108,7 @@
             this.lb_volume.AutoSize = true;
             this.lb_volume.BackColor = System.Drawing.SystemColors.Info;
             this.lb_volume.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lb_volume.Location = new System.Drawing.Point(648, 188);
+            this.lb_volume.Location = new System.Drawing.Point(657, 206);
             this.lb_volume.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lb_volume.Name = "lb_volume";
             this.lb_volume.Size = new System.Drawing.Size(26, 27);
@@ -123,7 +123,7 @@
             this.lb_clearproduct.BackColor = System.Drawing.SystemColors.Info;
             this.lb_clearproduct.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lb_clearproduct.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.lb_clearproduct.Location = new System.Drawing.Point(648, 312);
+            this.lb_clearproduct.Location = new System.Drawing.Point(657, 354);
             this.lb_clearproduct.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lb_clearproduct.Name = "lb_clearproduct";
             this.lb_clearproduct.Size = new System.Drawing.Size(26, 27);
@@ -137,11 +137,11 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.Info;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Font = new System.Drawing.Font("Sylfaen", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(585, 146);
+            this.label2.Font = new System.Drawing.Font("Sylfaen", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(572, 146);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 29);
+            this.label2.Size = new System.Drawing.Size(180, 33);
             this.label2.TabIndex = 10;
             this.label2.Text = "Łączna objętość:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -153,11 +153,11 @@
             this.label3.BackColor = System.Drawing.SystemColors.Info;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label3.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.label3.Font = new System.Drawing.Font("Sylfaen", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(572, 242);
+            this.label3.Font = new System.Drawing.Font("Sylfaen", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(572, 265);
             this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(171, 56);
+            this.label3.Size = new System.Drawing.Size(195, 64);
             this.label3.TabIndex = 11;
             this.label3.Text = "Objętość \r\nczystej substancji:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
