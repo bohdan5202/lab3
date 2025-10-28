@@ -14,16 +14,29 @@ namespace lab3
     {
         private Dictionary<string, double> vesselTypes = new Dictionary<string, double>
     {
-        { "Kieliszek 50", 50 },
-        { "Szklanka 250", 250 },
-        { "Kufel 500", 500 }
+        { "Shot Glass (30ml)", 30 },
+        { "Small Can (250ml)", 250 },
+        { "Standard Can (330ml)", 330 },
+        { "US Pint Glass (473ml)", 473 },
+        { "UK Pint Glass (568ml)", 568 },
+        { "Wine Glass (150ml)", 150 },
+        { "Wine Bottle (750ml)", 750 },
+        { "Spirit Bottle (1000ml)", 1000 },
+        { "Tablespoon (15ml)", 15 }
     };
 
         private Dictionary<string, double> solutionTypes = new Dictionary<string, double>
     {
-        { "Wódka 40%", 40 },
-        { "Piwo 5.5%", 5.5 },
-        { "Spirytus 96%", 96 }
+        { "Light Beer (4.2%)", 4.2 },
+        { "Standard Beer (5.0%)", 5.0 },
+        { "Craft IPA (7.5%)", 7.5 },
+        { "Table Wine (13.5%)", 13.5 },
+        { "Fortified Wine (e.g. Port) (20%)", 20 },
+        { "Whiskey/Gin/Rum (40%)", 40 },
+        { "Cask Strength Whiskey (60%)", 60 },
+        { "Hand Sanitizer (70%)", 70 },
+        { "Rubbing Alcohol (91%)", 91 }, 
+        { "Saline Solution (0.9%)", 0.9 }
     };
         public Form1()
         {
